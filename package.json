@@ -1,0 +1,27 @@
+{
+  "name": "@iadvize/javascript-currency-library",
+  "version": "0.0.1",
+  "description": "The goal of this javascript library is to provide some services with the currencies"
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iadvize/javascript-currency-library.git"
+  },
+  "author": "YvesPasteur",
+  "license": {
+    "name": "iAdvize",
+    "url": "http://iadvize.com"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "check-build": "*",
+    "mocha": "3.0.2"
+  },
+  "scripts": {
+    "check-build": "check-build",
+    "test": "npm run test-node",
+    "test-node": "./node_modules/mocha/bin/mocha -R spec ./test/index.js",
+    "watch-test": "./node_modules/mocha/bin/mocha -w -R spec ./test/index.js"
+  }
+}
