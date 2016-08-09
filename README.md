@@ -11,7 +11,7 @@ Warning : the lists are not comprehensives ie. all the currencies are not define
 
 ### How to install
 
-    npm install --save @iadvize/javascript-jsonapi-library
+    npm install --save javascript-jsonapi-library
 
 ### How to use it
 

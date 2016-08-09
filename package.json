@@ -1,7 +1,7 @@
 {
   "name": "@iadvize/javascript-currency-library",
   "version": "0.0.1",
-  "description": "The goal of this javascript library is to provide some services with the currencies"
+  "description": "The goal of this javascript library is to provide some services with the currencies",
   "main": "index.js",
   "repository": {
     "type": "git",
