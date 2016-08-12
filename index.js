@@ -18,7 +18,8 @@
             getCountries: function() {
               return currencies[currency];
             },
-            isAvailableIn: function(country) {
+            isAvailableIn: function(country)
+            {
               return isAvailableIn(country, currency);
             }
           };
