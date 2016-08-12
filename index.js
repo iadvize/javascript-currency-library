@@ -8,7 +8,7 @@
 
   var currencyManager = function() {
     var isAvailableIn = function(country, currency) {
-      return currencies[currency].indexOf(country) !== -1;// buddy ignore:line
+      return currencies[currency].indexOf(country) !== -1;
     };
 
     return {
@@ -18,7 +18,8 @@
             getCountries: function() {
               return currencies[currency];
             },
-            isAvailableIn: function(country) {
+            isAvailableIn: function(country)
+            {
               return isAvailableIn(country, currency);
             }
           };

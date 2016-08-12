@@ -38,3 +38,9 @@ Warning : the lists are not comprehensives ie. all the currencies are not define
 To automatically launch the tests when a file is changed :
 
     npm run-script watch-test
+
+Check the style :
+
+    npm run check-build
+
+[![CircleCI](https://circleci.com/gh/iadvize/javascript-currency-library.svg?style=svg)](https://circleci.com/gh/iadvize/javascript-currency-library)
