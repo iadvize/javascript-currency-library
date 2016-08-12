@@ -27,7 +27,7 @@ describe('Countries getter on currency object', function() {
 
 describe('Country tester on currency object', function() {
   it('should return false if the currency is not available in the country', function() {
-    assert(!currencyManager.get('EUR').isAvailableIn('GG'));
+    assert(!currencyManager.get('EUR').isAvailableIn('GB'));
   });
 
   it('should return true if the currency is available in the country', function() {
