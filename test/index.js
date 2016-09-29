@@ -52,3 +52,8 @@ describe('Currency finder by country', function() {
   });
 });
 
+describe('Currency listing', function() {
+  it('should return all the supported currencies', function() {
+    assert.deepEqual(currencyManager.getSupportedCurrencies(), ['EUR', 'GBP']);
+  });
+});

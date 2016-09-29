@@ -32,6 +32,9 @@
           }
         }
         throw new Error('The country ' + country + ' is not defined');
+      },
+      getSupportedCurrencies: function() {
+        return Object.getOwnPropertyNames(currencies);
       }
     };
   };

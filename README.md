@@ -29,6 +29,9 @@ Warning : the lists are not comprehensives ie. all the currencies are not define
 
     console.log(currencyManager.get('EUR').isAvailableIn('UK'));
     // output : false
+
+   console.log(currencyManager.getSupportedCurrencies());
+   // output : ['EUR', 'GBP']
 ```
 
 ### Test
