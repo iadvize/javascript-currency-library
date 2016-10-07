@@ -23,7 +23,7 @@
             }
           };
         }
-        throw new Error('The currency ' + currency + ' is not defined');
+        throw new Error('The currency ' + currency + ' is not supported');
       },
       findByCountry: function(country) {
         for (var currency in currencies) {
@@ -31,7 +31,7 @@
             return currency;
           }
         }
-        throw new Error('The country ' + country + ' is not defined');
+        throw new Error('The country ' + country + ' is not supported');
       },
       getSupportedCurrencies: function() {
         return Object.getOwnPropertyNames(currencies);
