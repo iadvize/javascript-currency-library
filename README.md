@@ -11,12 +11,12 @@ Warning : the lists are not comprehensives ie. all the currencies are not define
 
 ### How to install
 
-    npm install --save javascript-jsonapi-library
+    npm install --save javascript-currency-library
 
 ### How to use it
 
 ```javascript
-    const currencyManager = require('javascript-jsonapi-library');
+    const currencyManager = require('javascript-currency-library');
 
     console.log(currencyManager.get('GBP').getCountries());
     // output : ['GB']
@@ -29,6 +29,9 @@ Warning : the lists are not comprehensives ie. all the currencies are not define
 
     console.log(currencyManager.get('EUR').isAvailableIn('UK'));
     // output : false
+
+   console.log(currencyManager.getSupportedCurrencies());
+   // output : ['EUR', 'GBP']
 ```
 
 ### Test
@@ -37,7 +40,7 @@ Warning : the lists are not comprehensives ie. all the currencies are not define
 
 To automatically launch the tests when a file is changed :
 
-    npm run-script watch-test
+    npm run watch-test
 
 Check the style :
 

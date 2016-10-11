@@ -9,7 +9,7 @@ describe('Currency getter', function() {
       function() {
         currencyManager.get('FOO');
       },
-      /The currency FOO is not defined/
+      /The currency FOO is not supported/
     );
   });
 
@@ -41,7 +41,7 @@ describe('Currency finder by country', function() {
       function() {
         currencyManager.findByCountry('FOO');
       },
-      /The country FOO is not defined/
+      /The country FOO is not supported/
     );
   });
 
@@ -52,3 +52,8 @@ describe('Currency finder by country', function() {
   });
 });
 
+describe('Currency listing', function() {
+  it('should return all the supported currencies', function() {
+    assert.deepEqual(currencyManager.getSupportedCurrencies(), ['EUR', 'GBP']);
+  });
+});
