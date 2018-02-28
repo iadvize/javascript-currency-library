@@ -1,4 +1,5 @@
-# javascript-currency-library
+javascript-currency-library [![CircleCI](https://circleci.com/gh/iadvize/javascript-currency-library.svg?style=svg)](https://circleci.com/gh/iadvize/javascript-currency-library)
+===========================
 
 The goal of this library is to provide some services with the currencies.
 The first one is to give the relationships between currencies and countries.
@@ -9,11 +10,7 @@ To have more display-friendler things, you can use some others library :
 
 Warning : the lists are not comprehensives ie. all the currencies are not defined and all the countries of a currency neither.
 
-### How to install
-
-    npm install --save javascript-currency-library
-
-### How to use it
+## Examples
 
 ```javascript
     const currencyManager = require('javascript-currency-library');
@@ -34,7 +31,21 @@ Warning : the lists are not comprehensives ie. all the currencies are not define
    // output : ['EUR', 'GBP']
 ```
 
-### Test
+## Install
+
+    npm install --save javascript-currency-library
+
+## Documentation
+
+Look at the documentation in the code.
+
+## Contribute
+
+Look at contribution guidelines here : [CONTRIBUTING.md](CONTRIBUTING.md)
+
+### Running tests locally
+
+Simply run :
 
     npm test
 
@@ -45,5 +56,3 @@ To automatically launch the tests when a file is changed :
 Check the style :
 
     npm run check-build
-
-[![CircleCI](https://circleci.com/gh/iadvize/javascript-currency-library.svg?style=svg)](https://circleci.com/gh/iadvize/javascript-currency-library)
