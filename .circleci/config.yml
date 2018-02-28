@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/jaavscript-currency-library
+    docker:
+      - image: circleci/node:9
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@latest'
+      - run:
+          name: Npm install
+          command: npm install
+      - run:
+          name: Run tests
+          command: npm test
