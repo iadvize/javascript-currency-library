@@ -47,12 +47,12 @@ Look at contribution guidelines here : [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Simply run :
 
-    npm test
+    yarn install && yarn test
 
 To automatically launch the tests when a file is changed :
 
-    npm run watch-test
+    yarn run watch-test
 
 Check the style :
 
-    npm run check-build
+    yarn run check-build
