@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/jaavscript-currency-library
+    working_directory: ~/javascript-currency-library
     docker:
       - image: circleci/node:9
     steps:
@@ -10,8 +10,8 @@ jobs:
           name: update-npm
           command: 'sudo npm install -g npm@latest'
       - run:
-          name: Npm install
-          command: npm install
+          name: Install dependencies
+          command: yarn install
       - run:
           name: Run tests
           command: npm test
