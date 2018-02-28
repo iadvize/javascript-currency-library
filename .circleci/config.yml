@@ -11,4 +11,4 @@ jobs:
           command: yarn install
       - run:
           name: Run tests
-          command: yarn test
+          command: yarn test && yarn run check-build
