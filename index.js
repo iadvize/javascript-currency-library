@@ -3,7 +3,8 @@
 (function() {
   var currencies = {
     EUR: ['ES', 'DE', 'FR', 'IT'],
-    GBP: ['GB']
+    GBP: ['GB'],
+    USD : ['USA']
   };
 
   var currencyManager = function() {
