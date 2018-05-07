@@ -1,3 +1,9 @@
+## [0.2.0](https://github.com/iadvize/javascript-currency-library/tree/0.1.0) (2018-05-07)
+
+**Implemented feature:**
+
+- Add the US dollar in the list of currencies
+
 ## [0.1.0](https://github.com/iadvize/javascript-currency-library/tree/0.1.0) (2016-10-07)
 
 **Implemented feature:**
