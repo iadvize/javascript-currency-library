@@ -4,7 +4,7 @@
   var currencies = {
     EUR: ['ES', 'DE', 'FR', 'IT'],
     GBP: ['GB'],
-    USD: ['USA']
+    USD: ['US']
   };
 
   var currencyManager = function() {
