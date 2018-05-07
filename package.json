@@ -1,6 +1,6 @@
 {
   "name": "javascript-currency-library",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The goal of this javascript library is to provide some services with the currencies",
   "main": "index.js",
   "repository": {
