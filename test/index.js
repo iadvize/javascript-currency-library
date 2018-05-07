@@ -22,6 +22,7 @@ describe('Countries getter on currency object', function() {
   it('should return a country list in which the currency is available', function() {
     assert.deepEqual(currencyManager.get('EUR').getCountries(), ['ES', 'DE', 'FR', 'IT']);
     assert.deepEqual(currencyManager.get('GBP').getCountries(), ['GB']);
+    assert.deepEqual(currencyManager.get('USD').getCountries(), ['USA']);
   });
 });
 
@@ -49,11 +50,12 @@ describe('Currency finder by country', function() {
     assert.equal(currencyManager.findByCountry('FR'), 'EUR');
     assert.equal(currencyManager.findByCountry('IT'), 'EUR');
     assert.equal(currencyManager.findByCountry('GB'), 'GBP');
+    assert.equal(currencyManager.findByCountry('USA'), 'USD');
   });
 });
 
 describe('Currency listing', function() {
   it('should return all the supported currencies', function() {
-    assert.deepEqual(currencyManager.getSupportedCurrencies(), ['EUR', 'GBP']);
+    assert.deepEqual(currencyManager.getSupportedCurrencies(), ['EUR', 'GBP', 'USD']);
   });
 });
