@@ -20,7 +20,7 @@ describe('Currency getter', function() {
 
 describe('Countries getter on currency object', function() {
   it('should return a country list in which the currency is available', function() {
-    assert.deepEqual(currencyManager.get('EUR').getCountries(), ['ES', 'DE', 'FR', 'IT']);
+    assert.deepEqual(currencyManager.get('EUR').getCountries(), ['ES', 'DE', 'FR', 'IT', 'BE']);
     assert.deepEqual(currencyManager.get('GBP').getCountries(), ['GB']);
     assert.deepEqual(currencyManager.get('USD').getCountries(), ['US']);
   });

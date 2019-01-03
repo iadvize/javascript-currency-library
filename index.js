@@ -2,7 +2,7 @@
 
 (function() {
   var currencies = {
-    EUR: ['ES', 'DE', 'FR', 'IT'],
+    EUR: ['ES', 'DE', 'FR', 'IT', 'BE'],
     GBP: ['GB'],
     USD: ['US']
   };
